@@ -2,8 +2,8 @@
 # vi: ts=2 sw=2
 
 require 'getoptlong'
-require 'philesight'
 require 'set'
+require_relative 'philesight'
 
 opts = GetoptLong.new(
   [ "--index",           "-i", GetoptLong::REQUIRED_ARGUMENT ],
