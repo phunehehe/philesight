@@ -20,7 +20,7 @@ $show_list = true
 # directory is writable by the httpd user
 
 $path_cache = "#{File.expand_path(File.dirname(__FILE__))}/cache"
-# $cache_maxage = 60
+$cache_maxage = 60
 
 ##############################################################################
 # End of configuration
