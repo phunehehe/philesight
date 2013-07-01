@@ -1,4 +1,3 @@
-
 Summary
 =======
 
@@ -15,6 +14,8 @@ interface.
 
 Usage
 =====
+
+See https://gist.github.com/phunehehe/5097331 for instructions specific to Ubuntu.
 
 Philesight can be run in different modes: first, the filesystem is indexed
 and the results are stored in a database. When the database is generated, the
