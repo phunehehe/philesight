@@ -19,7 +19,7 @@ $show_list = true
 # Uncomment the following lines to enable caching. Make sure the $path_cache
 # directory is writable by the httpd user
 
-# $path_cache = "/tmp/philesight"
+$path_cache = "#{File.expand_path(File.dirname(__FILE__))}/cache"
 # $cache_maxage = 60
 
 ##############################################################################
