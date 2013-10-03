@@ -85,20 +85,20 @@ ruby libraries.
 
 On debian, the following should be sufficient:
 
-  # apt-get install libdb4.2-ruby1.8 libcairo-ruby1.8
+    apt-get install libdb4.2-ruby1.8 libcairo-ruby1.8
 
 On Fedora 10, use
 
-  # yum -y update
-  # yum -y install ruby ruby-cairo ruby-bdb
+    yum -y update
+    yum -y install ruby ruby-cairo ruby-bdb
 
 I've been told the following should work on RedHat/Centos
 
-  # yum -y update
-  # cd /etc/yum.repos.d/
-  # wget http://centos.karan.org/kbsingh-CentOS-Extras.repo
-  # wget http://ruby.gfd-dennou.org/products/rpm/RPMS/CentOS/CentOS-DennouRuby.repo
-  # yum -y --enablerepo=kbs-CentOS-Testing install ruby bitmap-fonts ruby-bdb ruby-cairo
+    yum -y update
+    cd /etc/yum.repos.d/
+    wget http://centos.karan.org/kbsingh-CentOS-Extras.repo
+    wget http://ruby.gfd-dennou.org/products/rpm/RPMS/CentOS/CentOS-DennouRuby.repo
+    yum -y --enablerepo=kbs-CentOS-Testing install ruby bitmap-fonts ruby-bdb ruby-cairo
 
 
 License
